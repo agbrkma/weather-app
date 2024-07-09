@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(220, 240, 240);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+    height: 15vh;
+    margin: 1vh;
+
+}
+
+#error-span {
+    color: red;
+}
+
+#weather-card {
+    border: 1px solid black;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+}
+
+#wrapper {
+    width: 90vw;
+    height: 80vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warm {
+    background-color: rgb(247, 247, 149);
+}
+
+.cold {
+    background-color: rgb(120, 155, 219);
+}
