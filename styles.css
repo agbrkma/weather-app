@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(220, 240, 240);
+    background-color: rgb(255, 255, 255);
 }
 
 form{
@@ -15,7 +15,6 @@ form{
     gap: 1vh;
     height: 15vh;
     margin: 1vh;
-
 }
 
 #error-span {
@@ -23,26 +22,33 @@ form{
 }
 
 #weather-card {
-    border: 1px solid black;
-    width: 50%;
-    height: 40%;
+    border: 1px solid rgb(121, 112, 112);
+    width: 45%;
+    height: 35%;
     text-align: center;
+    border-radius: 5px;
+    color: white;
 }
 
 #wrapper {
     width: 90vw;
-    height: 80vh;
-    border: 1px solid black;
+    height: 70vh;
+    border: 1px solid rgb(109, 105, 105);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5vh;
 }
 
 .warm {
-    background-color: rgb(247, 247, 149);
+    /* background-color: rgb(247, 247, 149); */
+    background-image: url('./sunny.jpg');
+    background-size: cover;
 }
 
 .cold {
-    background-color: rgb(120, 155, 219);
+    /* background-color: rgb(120, 155, 219); */
+    background-image: url('./cold.jpg');
+    background-size: contain;
 }
